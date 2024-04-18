@@ -17,7 +17,7 @@ mongoose
     console.log(err);
   });
 
-// ミドルウェア
+// ミドルウェア 主にルーティング設定
 app.use(express.json());
 app.use("/api/users", userRoute);
 app.use("/api/auth", authRoute);
